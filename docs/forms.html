@@ -13,100 +13,37 @@
 <body>
     <form action="./survey.html">
         <div class="container">
-            <div class="h1 mb-5 text-center">Checkout form</div>
-            <div class="h3">Billding address</div>
-            <div class="row">
-                <div class="col-4">
-                    <label class="form-label" for="firstname">First name</label>
-                    <input class="form-control" type="text" id="firstname">
+            <div class="h1 m-5 text-center">회원가입</div>
+            <div class="row m-5 justify-content-center">
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="name">이름</label>
+                    <input class="form-control" type="text" id="name">
                 </div>
-                <div class="col-4">
-                    <label class="form-label" for="lastname">Last name</label>
-                    <input class="form-control" type="text" id="lastname">
+
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="ID">아이디</label>
+                    <input class="form-control" type="text" id="ID">
                 </div>
-                <div class="col-8">
-                    <label class="form-label" for="username">Username</label>
-                    <input class="form-control" type="text" id="username">
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="Password">비밀번호</label>
+                    <input class="form-control" type="text" id="Password">
                 </div>
-                <div class="col-8">
-                    <label class="form-label" for="email">E-mail (Optional)</label>
-                    <input class="form-control" type="text" id="email">
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="Confirm Password">비밀번호 확인</label>
+                    <input class="form-control" type="text" id="Confirm Password">
                 </div>
-                <div class="col-8">
-                    <label class="form-label" for="address">Address</label>
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="E-mail address">이메일 주소</label>
+                    <input class="form-control" type="text" id="E-mail address">
+                </div>
+                <div class="col-8 mb-3">
+                    <label class="form-label" for="address">주소</label>
                     <input class="form-control" type="text" id="address">
                 </div>
-                <div class="col-8">
-                    <label class="form-label" for="address2">Address2 (Optional)</label>
-                    <input class="form-control" type="text" id="address2">
+                <div class="col-8 mx-3">
+                <button type="submit" class="btn btn-primary offset-12">가입 완료</button>
                 </div>
-                <div class="col-8">
-                    <label class="form-label" for="country">Country</label>
-                    <input class="form-control" type="text" id="country">
-                </div>
-                <div>
-                    <label>Country
-                        <select>
-                            <option value="" selected>Choose...</option>
-                            <option value="korea">Korea</option>
-                            <option value="france">France</option>
-                            <option value="denmark">Denmark</option>
-                            <option value="germany">Germany</option>
-                            <option value="spain">Spain</option>
-                        </select>
-                    </label>
-                </div>
-                <div>
-                    <label>State
-                        <select>
-                            <option value="" selected>Choose...</option>
-                            <option value="gyeonggido">Gyeonggi-do</option>
-                            <option value="jeollabukdo">Jeollabuk-do</option>
-                            <option value="chungcheonbukdo">Chungcheongbuk-do</option>
-                            <option value="gyeongsangnamdo">Gyeongsangnam-do</option>
-                        </select>
-                    </label>
-                </div>
-                <div>
-                    <label>Zip <input type="text" name="zip" id="zip"></label>
-                </div>
-                <hr>
-                <div>
-                    <label><input type="checkbox" name="shippingaddress"> Shipping address is the same as my billing
-                        address</label>
-                </div>
-                <div>
-                    <label><input type="checkbox" name="savethisinformation"> Save this information for next
-                        time</label>
-                </div>
-                <hr>
-                <div>
-                    <h3>Payments</h3>
-                </div>
-                <div>
-                    <label><input type="radio" name="payments" checked> Credit card</label>
-                </div>
-                <div>
-                    <label><input type="radio" name="payments"> Debit card</label>
-                </div>
-                <label><input type="radio" name="payments"> Paypal</label>
             </div>
-            <div>
-                <label>Name on card <input type="text" name="nameoncard" id="nameoncard"> Full name as displayed on
-                    card</label>
-            </div>
-            <div>
-                <label>Credit card number <input type="text" name="creditcardnumber" id="creditcardnumber"></label>
-            </div>
-            <div>
-                <label>Expiration <input type="text" name="expiration" id="expiration"></label>
-            </div>
-            <div>
-                <label>CVV <input type="text" name="cvv" id="cvv"></label>
-            </div>
-            <hr>
-            <button type="submit">Continue to checkout</button>
-        </div>
         </div>
     </form>
 </body>
